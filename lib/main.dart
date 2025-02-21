@@ -6,6 +6,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:rive/rive.dart';
 import 'package:flutter/services.dart';
 
+import 'marketplace/marketmain.dart';
 import 'msging.dart';
 import 'profile.dart';
 
@@ -141,6 +142,18 @@ class _HomeScreenState extends State<HomeScreen> {
                             fontWeight: FontWeight.bold,
                             color: Colors.green[700],
                           ),
+                        ),
+                        SizedBox(height: 10), // Adjust spacing
+                        FloatingActionButton(
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => MarketplacePage()),
+                            );
+                          },
+                          backgroundColor: Colors.blue,
+                          child: Icon(Icons.store),
                         ),
                       ],
                     ),
