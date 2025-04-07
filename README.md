@@ -26,8 +26,8 @@ walking 300 km in 30 days), and points gained are displayed on the leaderboard o
 ## Project Preview 
 
 <div align="center">
+   <img src="assets/github/home2.jpg" width="200" />
   <img src="assets/github/home1.jpg" width="200" />
-  <img src="assets/github/home2.jpg" width="200" />
   <img src="assets/github/challenge.png" width="200" />
   <img src="assets/github/chalpop.png" width="200" />
   <img src="assets/github/chaldeets.png" width="200" />
